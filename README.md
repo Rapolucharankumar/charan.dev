@@ -1,73 +1,52 @@
-# React + TypeScript + Vite
+# Rapolu Charan Kumar | AI Web Developer 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my professional portfolio. I am an AI & ML Engineer focused on rapid prototyping, scalable MVPs, and intelligent product systems. I turn complex ideas into production-ready software with a focus on modern aesthetics and performance.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend:** React 19, Vite, TypeScript, Vanilla CSS
+- **Icons:** Lucide-React
+- **Design:** Glassmorphism, Gradient UI, Dynamic Animations
+- **Deployment:** Vercel / Render
 
-## React Compiler
+## ✨ Core Capabilities
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **AI & ML Integration:** Embedding advanced language models into modern applications.
+- **Rapid MVP Development:** Transforming concepts into functional prototypes quickly.
+- **Full-Stack Web Apps:** Building end-to-end solutions with modern stacks.
+- **Performance Optimization:** Architecting for speed and scalability.
 
-## Expanding the ESLint configuration
+## 📁 Selected Work
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **[One Piece Character Explorer](https://one-piece-nine-tau.vercel.app/):** Dynamic caching and image delivery optimization.
+- **[CherryQuest AI](https://cherryquest-ai-p435.vercel.app/):** Gamified AI-driven coding platform.
+- **[VibeVault](https://vibe-vault-2.onrender.com):** Mood-based recommendation engine.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Getting Started
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+To run this project locally:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Rapolucharankumar/charan.dev.git
+   cd charan.dev
+   ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📬 Contact Me
+
+- **LinkedIn:** [Charan Kumar Rapolu](https://www.linkedin.com/in/charan-kumar-rapolu-358a8630b/)
+- **GitHub:** [@Rapolucharankumar](https://github.com/Rapolucharankumar)
+- **Email:** [rapolucharan5@gmail.com](mailto:rapolucharan5@gmail.com)
+
+---
+Built with 💜 and AI.
