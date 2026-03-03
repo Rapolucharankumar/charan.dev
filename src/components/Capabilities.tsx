@@ -1,4 +1,3 @@
-import React from 'react';
 import { Cpu, Zap, LayoutTemplate, Gauge, Network, Smartphone } from 'lucide-react';
 
 const Capabilities = () => {

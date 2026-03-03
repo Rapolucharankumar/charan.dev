@@ -1,4 +1,3 @@
-import React from 'react';
 
 const technologies = [
     'Python', 'Flask', 'Next.js', 'React', 'JavaScript', 'TypeScript', 'Tailwind',
