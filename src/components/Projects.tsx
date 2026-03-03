@@ -7,7 +7,7 @@ const projects = [
         problem: 'Anime APIs often have strict rate limits causing poor user experience during high traffic.',
         outcome: 'Implemented dynamic caching and optimized image delivery, bypassing 429 errors entirely.',
         link: 'https://one-piece-nine-tau.vercel.app/',
-        github: '#'
+        github: 'https://github.com/Rapolucharankumar/one-piece-character-explorer'
     },
     {
         title: 'CherryQuest AI',
@@ -15,7 +15,7 @@ const projects = [
         problem: 'Traditional coding platforms lack personalized, context-aware feedback.',
         outcome: 'Built a gamified AI-driven platform that evaluates Python code and provides targeted hints in real-time.',
         link: 'https://cherryquest-ai-p435.vercel.app/',
-        github: '#'
+        github: 'https://github.com/Rapolucharankumar/CHERRYQUEST-AI'
     },
     {
         title: 'VibeVault',
