@@ -7,7 +7,7 @@ const projects = [
         problem: 'Anime APIs often have strict rate limits causing poor user experience during high traffic.',
         outcome: 'Implemented dynamic caching and optimized image delivery, bypassing 429 errors entirely.',
         link: 'https://one-piece-nine-tau.vercel.app/',
-        github: 'https://github.com/Rapolucharankumar/one-piece-character-explorer'
+        github: 'https://github.com/Rapolucharankumar/ONE-PIECE'
     },
     {
         title: 'CherryQuest AI',
@@ -23,7 +23,7 @@ const projects = [
         problem: 'Users struggle to find content perfectly matching their current emotional state.',
         outcome: 'Developed a mood-based recommendation engine with dynamic filtering and modular UI components.',
         link: 'https://vibe-vault-2.onrender.com',
-        github: '#'
+        github: 'https://github.com/Rapolucharankumar/Vibe_Vault'
     },
     {
         title: 'Gym Management System',
