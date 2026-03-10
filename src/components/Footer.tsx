@@ -9,7 +9,7 @@ const Footer = () => {
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
                 <div style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-                    Built with <span style={{ color: 'var(--accent-purple)' }}>AI</span> + <span style={{ color: 'var(--accent-blue)' }}>Ambition</span>
+                    built by <span style={{ color: 'var(--accent-purple)' }}>cherry</span>
                 </div>
 
                 <div style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>

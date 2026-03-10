@@ -49,4 +49,4 @@ To run this project locally:
 - **Email:** [rapolucharan5@gmail.com](mailto:rapolucharan5@gmail.com)
 
 ---
-Built with 💜 and AI.
+built by cherry.
