@@ -13,7 +13,7 @@ const Footer = () => {
                 </div>
 
                 <div style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-                    &copy; {new Date().getFullYear()} Rapolu Charan Kumar
+                    &copy; {new Date().getFullYear()} RAPOLU CHARAN KUMAR
                 </div>
             </div>
         </footer>

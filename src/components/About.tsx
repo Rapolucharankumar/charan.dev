@@ -6,8 +6,8 @@ const About = () => {
             <div className="container">
                 <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
                     <h2 className="section-title">
-                        Hi, I’m Charan — <br />
-                        <span className="text-gradient">I Build AI-First Products.</span>
+                        Hi, I’m <span className="text-gradient">RAPOLU CHARAN KUMAR</span> — <br />
+                        I Build AI-First Products.
                     </h2>
                     <p style={{
                         color: 'var(--text-muted)',

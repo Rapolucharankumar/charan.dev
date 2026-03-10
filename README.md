@@ -1,4 +1,4 @@
-# Rapolu Charan Kumar | AI Web Developer 🚀
+# RAPOLU CHARAN KUMAR | AI Web Developer 🚀
 
 Welcome to my professional portfolio. I am an AI & ML Engineer focused on rapid prototyping, scalable MVPs, and intelligent product systems. I turn complex ideas into production-ready software with a focus on modern aesthetics and performance.
 

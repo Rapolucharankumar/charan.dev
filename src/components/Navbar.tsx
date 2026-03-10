@@ -33,7 +33,7 @@ const Navbar = () => {
                     fontSize: '1.5rem',
                     letterSpacing: '-0.5px'
                 }}>
-                    Charan<span className="text-gradient">.dev</span>
+                    RAPOLU CHARAN KUMAR<span className="text-gradient">.dev</span>
                 </a>
 
                 {/* Desktop Menu */}

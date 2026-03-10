@@ -114,7 +114,7 @@ const Hero = () => {
                     animation: 'fadeInUp 0.8s ease-out'
                 }}>
                     <Terminal size={16} color="var(--accent-blue)" />
-                    <span style={{ color: 'var(--text-muted)' }}>Rapolu Charan Kumar</span>
+                    <span style={{ color: 'var(--text-muted)' }}>RAPOLU CHARAN KUMAR</span>
                 </div>
 
                 <h1 style={{
