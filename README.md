@@ -16,11 +16,15 @@ Welcome to my professional portfolio. I am an AI & ML Engineer focused on rapid 
 - **Full-Stack Web Apps:** Building end-to-end solutions with modern stacks.
 - **Performance Optimization:** Architecting for speed and scalability.
 
-## 📁 Selected Work
+## 📁 Project Highlights
 
 - **[One Piece Character Explorer](https://one-piece-nine-tau.vercel.app/):** Dynamic caching and image delivery optimization.
 - **[CherryQuest AI](https://cherryquest-ai-p435.vercel.app/):** Gamified AI-driven coding platform.
 - **[VibeVault](https://vibe-vault-2.onrender.com):** Mood-based recommendation engine.
+- **[Internet Simulator](https://github.com/Rapolucharankumar/INTERNET-SIMULATOR):** Interactive system simulation.
+- **[JobTrack AI](https://github.com/Rapolucharankumar/JobTrack-AI):** High-fidelity claymorphism job tracker.
+
+> Check the portfolio for the full list of 28+ experiments and projects.
 
 ## 🚀 Getting Started
 

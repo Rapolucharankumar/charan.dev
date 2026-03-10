@@ -1,6 +1,6 @@
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Github, Code2, Layers, Cpu, Globe } from 'lucide-react';
 
-const projects = [
+const featuredProjects = [
     {
         title: 'One Piece Character Explorer',
         tech: ['Next.js', 'React', 'Tailwind', 'API'],
@@ -26,20 +26,101 @@ const projects = [
         github: 'https://github.com/Rapolucharankumar/Vibe_Vault'
     },
     {
-        title: 'Gym Management System',
-        tech: ['Flask', 'SQLite', 'HTML/CSS/JS', 'Bootstrap'],
-        problem: 'Local gyms rely on paper records or overly complex enterprise software.',
-        outcome: 'Created a streamlined CRUD dashboard with integrated BMI calculators and membership tracking.',
-        link: '#',
-        github: '#'
+        title: 'Internet Simulator',
+        tech: ['Next.js', 'React', 'Framer Motion', 'Lucide'],
+        problem: 'Simulating internet interactions for educational purposes requires complex state management.',
+        outcome: 'Created a polished, interactive simulator with smooth animations and tactile feedback.',
+        link: 'https://github.com/Rapolucharankumar/INTERNET-SIMULATOR',
+        github: 'https://github.com/Rapolucharankumar/INTERNET-SIMULATOR'
     },
     {
-        title: 'Weather Web App',
-        tech: ['JavaScript', 'REST API', 'CSS Grid'],
-        problem: 'Many weather apps are slow and cluttered with unnecessary data.',
-        outcome: 'Built a lightning-fast, responsive dashboard pulling real-time data with a minimalist focus.',
-        link: '#',
-        github: '#'
+        title: 'JobTrack AI',
+        tech: ['React', 'TypeScript', 'Lucide-React', 'CSS'],
+        problem: 'Job seekers need a cleaner, more tactile way to track applications beyond spreadsheets.',
+        outcome: 'Implemented a high-fidelity Claymorphism design system for a tactile job tracking experience.',
+        link: 'https://github.com/Rapolucharankumar/JobTrack-AI',
+        github: 'https://github.com/Rapolucharankumar/JobTrack-AI'
+    }
+];
+
+const otherProjects = [
+    {
+        title: 'Enterprise Platform Setup',
+        description: 'Industry-standard full-stack enterprise platform architecture.',
+        github: 'https://github.com/Rapolucharankumar/Industry-Ready-Full-Stack-Enterprise-Platform',
+        icon: <Layers size={20} />
+    },
+    {
+        title: 'Real-time Analytics',
+        description: 'Advanced analytics dashboard with Spring WebFlux and WebSockets.',
+        github: 'https://github.com/Rapolucharankumar/Advanced-Real-time-Analytics-Dashboard',
+        icon: <Cpu size={20} />
+    },
+    {
+        title: 'ERP System',
+        description: 'Modular Enterprise Resource Planning system with core business modules.',
+        github: 'https://github.com/Rapolucharankumar/-Enterprise-Resource-Planning-ERP-System-Development',
+        icon: <Globe size={20} />
+    },
+    {
+        title: 'Social Media Platform',
+        description: 'Microservices-based social platform with API Gateway and Service Discovery.',
+        github: 'https://github.com/Rapolucharankumar/Microservices-based-Social-Media-Platform',
+        icon: <Github size={20} />
+    },
+    {
+        title: 'E-commerce Backend',
+        description: 'Complete backend system with Spring Boot, JPA, and Order Processing.',
+        github: 'https://github.com/Rapolucharankumar/Complete-E-commerce-Backend-System',
+        icon: <Code2 size={20} />
+    },
+    {
+        title: 'Cogniq AI Clone',
+        description: 'AI platform clone focusing on modern UI/UX patterns.',
+        github: 'https://github.com/Rapolucharankumar/cogniq-ai-clone',
+        icon: <Cpu size={20} />
+    },
+    {
+        title: 'K-Pop Universe',
+        description: 'Themed web application for K-Pop enthusiasts.',
+        github: 'https://github.com/Rapolucharankumar/K-Pop-Universe',
+        icon: <Layers size={20} />
+    },
+    {
+        title: 'AI Interview Coach',
+        description: 'Interactive AI coach for technical interview preparation.',
+        github: 'https://github.com/Rapolucharankumar/CHERRY-AI-INTERVIEW-COACH',
+        icon: <Cpu size={20} />
+    },
+    {
+        title: 'SecurityLearn',
+        description: 'Comprehensive security education and training platform.',
+        github: 'https://github.com/Rapolucharankumar/SecurityLearn---Comprehensive-Security-Education-Platform',
+        icon: <Globe size={20} />
+    },
+    {
+        title: 'Xnexa',
+        description: 'Next-generation web application framework experimentation.',
+        github: 'https://github.com/Rapolucharankumar/Xnexa',
+        icon: <Code2 size={20} />
+    },
+    {
+        title: 'Dragon OS',
+        description: 'Lightweight operating system concept and dashboard.',
+        github: 'https://github.com/Rapolucharankumar/Dragon-os',
+        icon: <Cpu size={20} />
+    },
+    {
+        title: 'Time Track Extension',
+        description: 'Chrome extension for productivity and time management.',
+        github: 'https://github.com/Rapolucharankumar/-A-CHROME-EXTENSION-THAT-TRACKS-THE-TIME-SPENT',
+        icon: <Layers size={20} />
+    },
+    {
+        title: 'Real-time Chat',
+        description: 'Messaging application with Socket.io and Node.js.',
+        github: 'https://github.com/Rapolucharankumar/REAL-TIME-CHAT-APPLICATION',
+        icon: <Github size={20} />
     }
 ];
 
@@ -47,10 +128,10 @@ const Projects = () => {
     return (
         <section id="projects" style={{ padding: '8rem 0' }}>
             <div className="container">
-                <h2 className="section-title">Selected <span className="text-gradient">Work</span></h2>
+                <h2 className="section-title">Featured <span className="text-gradient">Work</span></h2>
 
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '4rem' }}>
-                    {projects.map((project, index) => (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '4rem', marginBottom: '8rem' }}>
+                    {featuredProjects.map((project, index) => (
                         <div
                             key={index}
                             className="glass-panel project-card"
@@ -105,16 +186,54 @@ const Projects = () => {
                                 </div>
 
                                 <div style={{ display: 'flex', gap: '1rem' }}>
-                                    <a href={project.link} className="btn btn-primary" style={{ padding: '0.75rem 1.5rem' }}>
+                                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ padding: '0.75rem 1.5rem' }}>
                                         View Project <ExternalLink size={18} />
                                     </a>
-                                    <a href={project.github} className="btn btn-secondary" style={{ padding: '0.75rem 1.5rem', border: 'none', background: 'rgba(255,255,255,0.05)' }}>
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ padding: '0.75rem 1.5rem', border: 'none', background: 'rgba(255,255,255,0.05)' }}>
                                         <Github size={18} /> Code
                                     </a>
                                 </div>
                             </div>
                         </div>
                     ))}
+                </div>
+
+                <div style={{ marginTop: '4rem' }}>
+                    <h3 style={{ fontSize: '1.5rem', marginBottom: '2rem', color: 'var(--text-muted)' }}>Other Notable <span style={{ color: 'var(--text-main)' }}>Experiments</span></h3>
+                    <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                        gap: '1.5rem'
+                    }}>
+                        {otherProjects.map((project, index) => (
+                            <a
+                                key={index}
+                                href={project.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="glass-panel other-project-card"
+                                style={{
+                                    padding: '1.5rem',
+                                    textDecoration: 'none',
+                                    color: 'inherit',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    gap: '1rem',
+                                    transition: 'all 0.3s ease',
+                                    border: '1px solid var(--border-subtle)'
+                                }}
+                            >
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                    <div style={{ color: 'var(--accent-purple)' }}>{project.icon}</div>
+                                    <Github size={18} style={{ color: 'var(--text-muted)' }} />
+                                </div>
+                                <div>
+                                    <h4 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>{project.title}</h4>
+                                    <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', lineHeight: '1.5' }}>{project.description}</p>
+                                </div>
+                            </a>
+                        ))}
+                    </div>
                 </div>
             </div>
             <style>{`
@@ -124,6 +243,11 @@ const Projects = () => {
         .project-card:hover {
            transform: translateY(-5px);
            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+        .other-project-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--accent-purple);
+            background: rgba(255,255,255,0.05);
         }
       `}</style>
         </section>
