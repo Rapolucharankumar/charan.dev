@@ -26,12 +26,12 @@ const featuredProjects = [
         github: 'https://github.com/Rapolucharankumar/Vibe_Vault'
     },
     {
-        title: 'Internet Simulator',
-        tech: ['Next.js', 'React', 'Framer Motion', 'Lucide'],
-        problem: 'Simulating internet interactions for educational purposes requires complex state management.',
-        outcome: 'Created a polished, interactive simulator with smooth animations and tactile feedback.',
-        link: 'https://github.com/Rapolucharankumar/INTERNET-SIMULATOR',
-        github: 'https://github.com/Rapolucharankumar/INTERNET-SIMULATOR'
+        title: 'Cherry CRM',
+        tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind'],
+        problem: 'Businesses lack a unified platform to manage leads and sales pipelines efficiently.',
+        outcome: 'Built a MERN-stack CRM with Kanban boards, real-time analytics, and role-based access control.',
+        link: 'https://crm-dusky-pi.vercel.app/',
+        github: 'https://github.com/Rapolucharankumar/CRM'
     },
     {
         title: 'JobTrack AI',
