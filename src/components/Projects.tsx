@@ -9,14 +9,7 @@ const featuredProjects = [
         link: 'https://one-piece-nine-tau.vercel.app/',
         github: 'https://github.com/Rapolucharankumar/ONE-PIECE'
     },
-    {
-        title: 'CherryQuest AI',
-        tech: ['Flask', 'Python', 'OpenAI', 'SQLite'],
-        problem: 'Traditional coding platforms lack personalized, context-aware feedback.',
-        outcome: 'Built a gamified AI-driven platform that evaluates Python code and provides targeted hints in real-time.',
-        link: 'https://cherryquest-ai-p435.vercel.app/',
-        github: 'https://github.com/Rapolucharankumar/CHERRYQUEST-AI'
-    },
+
     {
         title: 'VibeVault',
         tech: ['React', 'CSS Modules', 'Node.js'],
